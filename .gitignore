@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+models/*.joblib
+reports/analysis_history.csv
+reports/figures/*.png
+data/processed/*
+!data/processed/.gitkeep
+.streamlit/secrets.toml

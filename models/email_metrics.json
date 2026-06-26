@@ -1,0 +1,42 @@
+{
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.9912891986062717,
+      "precision": 0.9964619661359616,
+      "recall": 0.9872308462694042,
+      "f1_score": 0.9918249276820525,
+      "confusion_matrix": [
+        [
+          3454,
+          14
+        ],
+        [
+          51,
+          3943
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99      3468\n           1       1.00      0.99      0.99      3994\n\n    accuracy                           0.99      7462\n   macro avg       0.99      0.99      0.99      7462\nweighted avg       0.99      0.99      0.99      7462\n",
+      "roc_auc": 0.9994601186670432,
+      "selected_model": "logistic_regression"
+    },
+    "multinomial_naive_bayes": {
+      "accuracy": 0.9642187081211472,
+      "precision": 0.9981288425554664,
+      "recall": 0.9349023535302955,
+      "f1_score": 0.9654815772462831,
+      "confusion_matrix": [
+        [
+          3461,
+          7
+        ],
+        [
+          260,
+          3734
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n           0       0.93      1.00      0.96      3468\n           1       1.00      0.93      0.97      3994\n\n    accuracy                           0.96      7462\n   macro avg       0.96      0.97      0.96      7462\nweighted avg       0.97      0.96      0.96      7462\n",
+      "roc_auc": 0.9982057861879323
+    }
+  },
+  "best_model": "logistic_regression"
+}
